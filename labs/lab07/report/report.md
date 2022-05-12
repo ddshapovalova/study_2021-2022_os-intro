@@ -1,119 +1,84 @@
----
-## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+# **МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ «РОССИЙСКИЙ УНИВЕРСИТЕТ ДРУЖБЫ НАРОДОВ»**  
+Факультет <ins>физико-математических и естественных наук</ins>  
+Кафедра <ins>информационных технологий</ins>  
+## Отчет по лабораторной работе №7  
+Тема "Командная оболочка Midnight Commander" по дисциплине <ins>операционные системы.</ins>  
+Выполнила:  
+Студентка группы <ins>НПИбд-02-21</ins>  
+Студенческий билет <ins>№1032211220</ins>  
+<ins>Шаповалова Диана Дмитриевна</ins>  
+<ins>12 мая 2022г</ins>  
+Москва  
+  
+**Цель работы:** Освоение основных возможностей командной оболочки Midnight Commander. Приобретение навыков практической работы по просмотру каталогов и файлов; манипуляций с ними.  
+  
+**Ход работы:**  
+**1. Задание по mc**  
+1. Изучите информацию о mc, вызвав в командной строке man mc.  
+![image](https://user-images.githubusercontent.com/104142929/168050124-b44d14e9-e9f9-46c1-9484-7604dd309375.png)  
+*рис.1*  
+  
+Запустите из командной строки mc, изучите его структуру и меню.  
+![image](https://user-images.githubusercontent.com/104142929/168050260-a35086ea-0d36-427d-b1dd-53dbb771c9f1.png)  
+*рис.2*  
+  
+Выполните несколько операций в mc, используя управляющие клавиши:  
+![image](https://user-images.githubusercontent.com/104142929/168050604-3df09e66-2716-46b3-a1ab-cac900010c58.png)  
+*рис.3 Меняем местами панели с помощью комбинации Ctrl+U*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168050779-7294db98-70f9-4847-99ba-2d33514a4657.png)  
+*рис.4 Отключение отображение панелей с помощью Ctrl+o*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168050971-08300cdc-f929-4dec-9a63-1f475c9d1f97.png)  
+*рис.5 Копирование файла в какой либо из каталогов с помощью F5*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168051302-4b30f38a-61b8-4544-9abb-0e407b730eb5.png)  
+*рис.6 Просмотр прав доступа*  
+  
+  
+2. Используем возможности подменю "Файл":  
+![image](https://user-images.githubusercontent.com/104142929/168051585-a9c5d56c-f336-43f9-985f-2c57883dcfcb.png)  
+*рис.7 Просмотр содержимого текстового файла*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168051789-c606ba2e-a00c-4a0b-85ee-a416354310d5.png)  
+*рис.8 Редактирование содержимого текстового файла (без сохранения результатов редактирования)  
+  
+![image](https://user-images.githubusercontent.com/104142929/168051890-da5e7424-6553-4f68-b5e2-6f57c78dd6e8.png)  
+*рис.9 Создание каталога*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168052022-fe126e76-e62d-4d12-ad33-a21827e7e2de.png)  
+*рис.10 Копирование в файлов в созданный каталог*  
+  
+  
+3. С помощью соответствующих средств подменю "Команда" осуществите:  
+![image](https://user-images.githubusercontent.com/104142929/168052328-f15b5e30-abb7-4c2a-9031-6289d2023b4f.png)  
+*рис.11 Поиск в файловой системе файла с заданными условиями*  
+  
+![image](https://user-images.githubusercontent.com/104142929/168052478-5a94dffe-0b86-4d5c-87eb-dcc58beddb6d.png)  
+*рис.12 Выбор и повторение одной из предыдущих команд*  
+  
+  
+**2. Задание по встроенному редактору mc**  
+1. Создайте текстовой файл text.txt.  
+![image](https://user-images.githubusercontent.com/104142929/168052757-36f99b53-f5c9-4fb2-9f60-d3b65ebd8193.png)  
+*рис.13*  
+  
+2. Откройте этот файл с помощью встроенного в mc редактора  
+![image](https://user-images.githubusercontent.com/104142929/168052867-24dce18a-68de-4f38-b973-936634427d27.png)  
+*рис.14*  
+  
+3. Вставьте в открытый файл небольшой фрагмент текста, скопированный из любого другого файла или Интернета.  
+![image](https://user-images.githubusercontent.com/104142929/168053281-9192ad1f-2ee3-49b1-8328-5c1053cbb919.png)  
+*рис.15*  
+  
+4. Проделайте с текстом следующие манипуляции, используя горячие клавиши:  
+4.1.Удалите строку текста.  
+![image](https://user-images.githubusercontent.com/104142929/168053395-37fd06f5-1708-4e5e-b1c6-8cfcb80e105a.png)  
+*рис.16*  
+  
+4.2.Выделите фрагмент текста и скопируйте его на новую строку.  
+![image](https://user-images.githubusercontent.com/104142929/168053541-cc1a32c3-6430-4116-a300-4b081d840aa6.png)  
+*рис.17*  
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
 
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
----
-
-# Цель работы
-
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
-
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
-
-# Задание
-
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
-
-# Теоретическое введение
-
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
-
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
-
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
-
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
-
-Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
-
-# Выполнение лабораторной работы
-
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001])
-
-![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
-
-# Выводы
-
-Здесь кратко описываются итоги проделанной работы.
-
-# Список литературы{.unnumbered}
-
-::: {#refs}
-:::
