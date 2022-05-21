@@ -16,7 +16,7 @@
 ![image](https://user-images.githubusercontent.com/104142929/169656446-2b34adb4-0791-4fab-bf7d-53fa8f696df2.png)  
 *рис.1*  
   
-2. Пишем первую программу и проверяем ее работу
+2. Пишем первую программу и проверяем ее работу  
 ![image](https://user-images.githubusercontent.com/104142929/169656474-8677ff59-1537-4320-85a6-8ab1904d863d.png)  
 *рис.2*  
 ![image](https://user-images.githubusercontent.com/104266946/169653851-434ed409-34bf-472e-891e-d177fb9de59f.png)  
